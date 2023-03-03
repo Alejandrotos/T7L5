@@ -34,19 +34,22 @@ G.172.16.252.0
 4 bits para subred y el resto de host ya que con 12 bits de host ya da para las 2500 255.255.11110000=240.0
 La respuesta correcta es la B.
 
-#5. ¿Cuáles de las siguientes subredes no pertenece a la misma red si se ha
+#4. ¿Cuáles de las siguientes subredes no pertenece a la misma red si se ha
 utilizado la máscara de subred 255.255.224.0?
 A.172.16.66.24
 B.172.16.65.33
 C.172.16.64.42
 D.172.16.63.51
-#6. ¿Cuáles de los siguientes son direccionamientos validos clase B?
+Es la D. Porque tenemos tres bits de subred porque pasando el 224 a binario da 11100000 la red 010 empieza 
+con el 64 por lo tanto la a y la b entran en la misma red pero la 63 ya entra en otra red
+
+#5. ¿Cuáles de los siguientes son direccionamientos validos clase B?
 a. 10011001.01111000.01101101.11111000
 b. 01011001.11001010.11100001.01100111
 c. 10111001.11001000.00110111.01001100
 d. 11011001.01001010.01101001.00110011
 e. 10011111.01001011.00111111.00101011
-#8. Se tiene una dirección IP 172.17.111.0 máscara 255.255.254.0, ¿cuantas
+#6. Se tiene una dirección IP 172.17.111.0 máscara 255.255.254.0, ¿cuantas
 subredes y cuantos host validos habrá por subred?
 a. 126 subredes con 512 hosts
 b. 128 subredes con 510 hosts
@@ -57,14 +60,14 @@ Bloque Tema 5
 Actividad Tarea 6
 Nombre
 Vicente Monfort Salvador
-#8-2. Se tiene una dirección IP 192.100.100.128 máscara 255.255.255.254,
+#7-2. Se tiene una dirección IP 192.100.100.128 máscara 255.255.255.254,
 ¿cuántas subredes y cuantos host validos habrá por subred?
 a. 126 subredes con 512 hosts
 b. 128 subredes con 510 hosts
 c. 126 subredes con 510 hosts
 d. 126 subredes con 1022 hosts
 e. Ninguna de las respuestas es correcta.
-#10. Usted está designando un direccionamiento IP para cuatro subredes con la red
+#8. Usted está designando un direccionamiento IP para cuatro subredes con la red
 10.1.1.0, se prevé un crecimiento de una red por año en los próximos cuatro años.
 ¿Cuál será la máscara que permita la mayor cantidad de host?
 a. 255.0.0.0
@@ -72,32 +75,32 @@ b. 255.254.0.0
 c. 255.240.0.0
 d. 255.255.255.0
 En este caso la máscara de red es: 255.255.255.240
-#12 . A partir de la dirección IP 172.18.71.2 /21 , ¿cuál es la dirección de subred y
+#9 . A partir de la dirección IP 172.18.71.2 /21 , ¿cuál es la dirección de subred y
 de broadcast a la que pertenece el host?
 a. dirección = 172.18.64.0, broadcast 172.18.80.255
 b. dirección = 172.18.32.0, broadcast 172.18.71.255
 c. dirección = 172.18.32.0, broadcast 172.18.80.255
 d. dirección = 172.18.64.0, broadcast 172.18.71.255
-#13. Una red clase B será dividida en 20 subredes a las que se sumaran 30 más en
+#10. Una red clase B será dividida en 20 subredes a las que se sumaran 30 más en
 los próximos años ¿Qué máscara se deberá utilizar para obtener un total de 800
 host por subred?
 a. 255.248.0.0
 b. 255.255.252.0
 c. 255.255.224.0
 d. 255.255.248.0
-#14. Una red clase B será dividida en 20 subredes a las que se sumaran 4 más en
+#11. Una red clase B será dividida en 20 subredes a las que se sumaran 4 más en
 los próximos años ¿Qué máscara se deberá utilizar para obtener un total de 2000
 host por subred?
 a. /19
 b. /21
 c. /22
 d. /24
-#15. Cuáles de las siguientes máscaras de red equivale a: /24
+#12. Cuáles de las siguientes máscaras de red equivale a: /24
 a. 255.0.0.0
 b. 224.0.0.0
 c. 255.255.0.0
 d. 255.255.255.0
-#16. A partir de la dirección IP 192.168.85.129 /26 , ¿Cuál es la dirección de
+#13. A partir de la dirección IP 192.168.85.129 /26 , ¿Cuál es la dirección de
 subred y de broadcast a la que pertenece el host?
 Ciclo 1DAM Módulo SI
 Bloque Tema 5
@@ -108,20 +111,20 @@ a. dirección = 192.168.85.128, broadcast 192.168.85.255
 b. dirección = 192.168.84.0, broadcast 192.168.92.255
 c. dirección = 192.168.85.129, broadcast 192.168.85.224
 d. dirección = 192.168.85.128, broadcast 192.168.85.191
-#17. Una red clase C 192.168.1.0 /30, está dividida en subredes ¿cuántas
+#14. Una red clase C 192.168.1.0 /30, está dividida en subredes ¿cuántas
 subredes y cuantos host por subred tendrá cada una?
 a. 62 subredes con 2 hosts
 b. 126 subredes con 4 hosts
 c. 126 subredes con 6 hosts
 d. 30 subredes con 6 hosts
 e. 2 subredes con 62 hosts
-#18. Usted tiene una IP 156.233.42.56 con una máscara de subred de 7 bits.
+#15. Usted tiene una IP 156.233.42.56 con una máscara de subred de 7 bits.
 ¿Cuántos host y cuantas subredes son posibles?
 a.126 subredes y 510 hosts
 b. 128 subredes y 512 hosts
 c. 510 hosts y 126 subredes
 d. 512 hosts y 128 subredes
-#20. Una red clase B será dividida en subredes. ¿Qué máscara se deberá utilizar
+#16. Una red clase B será dividida en subredes. ¿Qué máscara se deberá utilizar
 para obtener un total de 500 host por subred?
 a. 255.255.224.0
 b. 255.255.248.0
