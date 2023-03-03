@@ -31,7 +31,8 @@ D.255.255.255.255
 E.255.255.224.0
 F.255.255.252.0
 G.172.16.252.0
-
+4 bits para subred y el resto de host ya que con 12 bits de host ya da para las 2500 255.255.11110000=240.0
+La respuesta correcta es la B.
 
 #5. ¿Cuáles de las siguientes subredes no pertenece a la misma red si se ha
 utilizado la máscara de subred 255.255.224.0?
