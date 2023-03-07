@@ -59,13 +59,15 @@ c. 126 subredes con 510 hosts
 d. 126 subredes con 1022 hosts
 La respuesta es la b
 
-#7-2. Se tiene una dirección IP 192.100.100.128 máscara 255.255.255.254,
+#7. Se tiene una dirección IP 192.100.100.128 máscara 255.255.255.254,
 ¿cuántas subredes y cuantos host validos habrá por subred?
 a. 126 subredes con 512 hosts
 b. 128 subredes con 510 hosts
 c. 126 subredes con 510 hosts
 d. 126 subredes con 1022 hosts
 e. Ninguna de las respuestas es correcta.
+La respuesta es la e
+
 #8. Usted está designando un direccionamiento IP para cuatro subredes con la red
 10.1.1.0, se prevé un crecimiento de una red por año en los próximos cuatro años.
 ¿Cuál será la máscara que permita la mayor cantidad de host?
