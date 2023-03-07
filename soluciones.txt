@@ -103,6 +103,9 @@ a. /19
 b. /21
 c. /22
 d. /24
+La respuesta es la b porque para tener más de 20 subredes necesitamos 5 bits de subred y el resto que son 11
+dan más de 2000 hosts y como es clase b tenemos 16 bits más los 5 dan 21
+
 #12. Cuáles de las siguientes máscaras de red equivale a: /24
 a. 255.0.0.0
 b. 224.0.0.0
