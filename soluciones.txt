@@ -136,6 +136,9 @@ a.126 subredes y 510 hosts
 b. 128 subredes y 512 hosts
 c. 510 hosts y 126 subredes
 d. 512 hosts y 128 subredes
+Respuesta incorrectas la respuesta correcta es la a y la b juntas que da
+2^9-2 da 510 hosts y 2^7 da 128 subred
+
 #16. Una red clase B será dividida en subredes. ¿Qué máscara se deberá utilizar
 para obtener un total de 500 host por subred?
 a. 255.255.224.0
