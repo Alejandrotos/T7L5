@@ -57,6 +57,7 @@ a. 126 subredes con 512 hosts
 b. 128 subredes con 510 hosts
 c. 126 subredes con 510 hosts
 d. 126 subredes con 1022 hosts
+La respuesta es la b
 
 #7-2. Se tiene una dirección IP 192.100.100.128 máscara 255.255.255.254,
 ¿cuántas subredes y cuantos host validos habrá por subred?
