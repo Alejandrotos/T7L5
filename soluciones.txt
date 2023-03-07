@@ -111,6 +111,8 @@ a. 255.0.0.0
 b. 224.0.0.0
 c. 255.255.0.0
 d. 255.255.255.0
+la respuesta es la d porque son 24 bits a uno
+
 #13. A partir de la dirección IP 192.168.85.129 /26 , ¿Cuál es la dirección de
 subred y de broadcast a la que pertenece el host?
 Ciclo 1DAM Módulo SI
