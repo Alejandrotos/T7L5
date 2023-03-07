@@ -93,6 +93,9 @@ a. 255.248.0.0
 b. 255.255.252.0
 c. 255.255.224.0
 d. 255.255.248.0
+La respuesta es la b porque necesitamos 6 bits para subred y 10 para host al pasar los seis primeros bist a 1 y el
+resto a 0 da 252
+
 #11. Una red clase B será dividida en 20 subredes a las que se sumaran 4 más en
 los próximos años ¿Qué máscara se deberá utilizar para obtener un total de 2000
 host por subred?
