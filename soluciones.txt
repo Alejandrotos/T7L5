@@ -123,11 +123,13 @@ La respuesta es la d
 
 #14. Una red clase C 192.168.1.0 /30, está dividida en subredes ¿cuántas
 subredes y cuantos host por subred tendrá cada una?
-a. 62 subredes con 2 hosts
+a. 64 subredes con 2 hosts
 b. 126 subredes con 4 hosts
 c. 126 subredes con 6 hosts
 d. 30 subredes con 6 hosts
 e. 2 subredes con 62 hosts
+La respuesta es la a porque son 2 bits para host que da 2 y 6 para subred que da 64 porque es clase C
+
 #15. Usted tiene una IP 156.233.42.56 con una máscara de subred de 7 bits.
 ¿Cuántos host y cuantas subredes son posibles?
 a.126 subredes y 510 hosts
