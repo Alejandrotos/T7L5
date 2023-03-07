@@ -49,17 +49,15 @@ b. 01011001.11001010.11100001.01100111
 c. 10111001.11001000.00110111.01001100
 d. 11011001.01001010.01101001.00110011
 e. 10011111.01001011.00111111.00101011
+Son la a, c y la e
+
 #6. Se tiene una dirección IP 172.17.111.0 máscara 255.255.254.0, ¿cuantas
 subredes y cuantos host validos habrá por subred?
 a. 126 subredes con 512 hosts
 b. 128 subredes con 510 hosts
 c. 126 subredes con 510 hosts
 d. 126 subredes con 1022 hosts
-Ciclo 1DAM Módulo SI
-Bloque Tema 5
-Actividad Tarea 6
-Nombre
-Vicente Monfort Salvador
+
 #7-2. Se tiene una dirección IP 192.100.100.128 máscara 255.255.255.254,
 ¿cuántas subredes y cuantos host validos habrá por subred?
 a. 126 subredes con 512 hosts
